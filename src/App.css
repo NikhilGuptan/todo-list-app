@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #1B1A17;
+  color: #ffffff;
 }
 
 .App-logo {
@@ -35,4 +37,166 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navBar{
+  width: 100%;
+  height: 100px;
+  border: 1px solid #A3570A;
+  display: flex;
+  background-color: #242320;
+}
+
+.bagrondAndColor{
+  background-color: #242320;
+  color: #ffffff;
+}
+
+.margin10{
+  margin: 10px;
+}
+
+.add-todo-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.input-to-add{
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #A3570A;
+  padding: 5px;  
+}
+
+.input-to-add:focus{
+  outline: none;
+  border: 1px solid #A3570A;
+}
+
+.add-tod-button{
+  width:55px;
+  height: 55px;
+  margin-left: 10px;
+  font-size: 35px;
+  background-color: #1B1A17;
+  color: #A3570A;
+  border: 1px solid #A3570A;
+  border-radius: 5px;
+}
+
+.update-tod-button{
+  width:130px;
+  height: 55px;
+  margin-left: 10px;
+  font-size: 35px;
+  background-color: #1B1A17;
+  color: #ffffff;
+  border: 1px solid #A3570A;
+  border-radius: 5px;
+}
+
+.todo-show-list{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #A3570A;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+  border-radius: 5px;
+  background-color: #242320;
+
+}
+
+.todo-div{
+  display: flex;
+  border: 1px solid #A3570A;
+  width: 300px;
+  height: 70px;
+  border-radius: 5px;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tod-p-tag{
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+.editIconToOpen{
+  width:35px;
+  height: 35px;
+  margin-right: 5px;
+  background-color: #1B1A17;
+  border: 1px solid #A3570A;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.edit-todo{
+  width:35px;
+  height: 35px;
+  margin-right: 5px;
+  background-color: #1B1A17;
+  border: 1px solid #A3570A;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+.remove-todo{
+  width:35px;
+  height: 35px;
+  margin-right: 5px;
+  background-color: #1B1A17;
+  color: #A3570A;
+  border: 1px solid #A3570A;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.bottom-bar{
+  background-color: #1B1A17;
+  width: 100px;
+  height: 93px;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #1B1A17;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-yes-no{
+  border: 1px solid #A3570A;
+  background-color: #242320;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 5px;
 }
